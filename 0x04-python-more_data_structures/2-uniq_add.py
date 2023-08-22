@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
-def common_elements(set_1, set_2):
-    c_set = set_1.intersection(set_2)
-    return c_set
+def uniq_add(my_list=[]):
+    my_set = set(my_list)
+    number_list = list(my_set)
+    result = sum(my_set)
+    return result
